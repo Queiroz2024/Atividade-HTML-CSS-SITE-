@@ -1,0 +1,61 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4; /* Fundo claro */
+    color: #333; /* Texto escuro */
+    margin: 0;
+    line-height: 1.6; /* Melhor legibilidade */
+}
+
+#principal {
+    max-width: 800px;
+    margin: auto;
+    padding: 20px;
+    background: #ffffff; /* Fundo branco */
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+.imagem-capa {
+    width: 100%;
+    border-radius: 8px; /* Bordas arredondadas na imagem de capa */
+}
+
+#menu {
+    margin: 20px 0;
+    text-align: center;
+}
+
+#menu a {
+    text-decoration: none;
+    color: #ffffff;
+    background-color: #007bff;
+    padding: 10px 15px;
+    border-radius: 5px;
+    margin: 0 5px; /* Espaçamento entre os links */
+    transition: background-color 0.3s, transform 0.3s;
+}
+
+#menu a:hover {
+    background-color: #0056b3; /* Cor do fundo ao passar o mouse */
+    transform: scale(1.05); /* Leve aumento ao passar o mouse */
+}
+
+#conteudo h1 {
+    text-align: center;
+    color: #007bff; /* Título em azul */
+}
+
+.img-biografia {
+    max-width: 100%;
+    height: auto;
+    margin: 15px 0;
+    border: 4px solid #007bff; /* Borda azul nas imagens */
+    border-radius: 8px;
+}
+
+#rodape {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 14px;
+    color: #777; /* Cor do texto do rodapé */
+}
